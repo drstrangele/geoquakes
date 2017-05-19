@@ -15,17 +15,6 @@
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <!-- Google Maps API -->
-    <div id="map"></div>
-    <script>
-     var map;
-     function initMap() {
-       map = new google.maps.Map(document.getElementById('map'), {
-         center: {lat: 37.775, lng: -122.419},
-         zoom: 20
-       });
-     }
-   </script>
-
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLett8djBo62dDXj0EjCimF8Rd6E8cxg&callback=initMap"></script>
 
     <!-- Custom JS -->
@@ -38,7 +27,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div id="map"></div>
+            <div id="map">
+            </div>
           </div>
           <div class="col-md-6">
             <div id="info">
